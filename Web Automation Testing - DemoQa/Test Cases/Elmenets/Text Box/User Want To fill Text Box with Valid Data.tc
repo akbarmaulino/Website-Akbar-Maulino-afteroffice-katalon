@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Want To fill Text Box with Valid Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24e5c82c-c5bf-40d0-8ae9-50d13f13f39d</testCaseGuid>
+</TestCaseEntity>

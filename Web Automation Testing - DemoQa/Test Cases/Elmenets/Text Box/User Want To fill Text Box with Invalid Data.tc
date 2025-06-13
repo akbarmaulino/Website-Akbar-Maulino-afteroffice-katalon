@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Want To fill Text Box with Invalid Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>576ab96b-de60-44e1-b88d-fc440510f6c0</testCaseGuid>
+</TestCaseEntity>
