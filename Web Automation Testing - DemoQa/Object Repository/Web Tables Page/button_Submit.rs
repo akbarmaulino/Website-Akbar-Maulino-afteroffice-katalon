@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Sidebar_Check Box</name>
+   <name>button_Submit</name>
    <tag></tag>
-   <elementGuidId>f05525d8-cdf0-43dc-929c-3c0a3934e675</elementGuidId>
+   <elementGuidId>5ff362d2-5a4b-4087-b382-73941d737c12</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'item-1' and (text() = 'Check Box' or . = 'Check Box')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#item-1</value>
+         <value>#submit</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id = 'item-1' and (text() = 'Check Box' or . = 'Check Box')]</value>
+         <value>//button[@id='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,95 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
-      <webElementGuid>7e964d7c-80a2-40e0-92ad-65e2dc1fabc2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-light active</value>
-      <webElementGuid>feb4d7c9-85bd-48d0-af90-61c994acee25</webElementGuid>
+      <value>button</value>
+      <webElementGuid>4c4427de-cb4a-4029-9cdb-6b632b02e033</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>item-1</value>
-      <webElementGuid>5a37718c-e7ca-4886-a891-ad6c82b017ca</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>733b6f1c-0162-4533-954e-89a0230748aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>86b72bd1-9bdf-41e7-a725-8a39f1f736f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>4ae58e51-f3f4-49f6-8c70-a0bcfc11d072</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Check Box</value>
-      <webElementGuid>95692f7e-aa35-4811-a5aa-cd2c72060d78</webElementGuid>
+      <value>Submit</value>
+      <webElementGuid>697f13f3-60cc-4884-b7c7-642ec2de1b20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4  col-md-3&quot;]/div[@class=&quot;left-pannel&quot;]/div[@class=&quot;accordion&quot;]/div[@class=&quot;element-group&quot;]/div[@class=&quot;element-list collapse show&quot;]/ul[@class=&quot;menu-list&quot;]/li[@id=&quot;item-1&quot;]</value>
-      <webElementGuid>649d8df4-8606-4158-9f48-d82cf7a40b00</webElementGuid>
+      <value>id(&quot;submit&quot;)</value>
+      <webElementGuid>bc22138e-a1e1-4e1b-9e71-440db44fc5c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='item-1']</value>
-      <webElementGuid>0b6cb294-de87-4822-a03c-83eab09fac54</webElementGuid>
+      <value>//button[@id='submit']</value>
+      <webElementGuid>5469a92a-825e-4e8a-8614-cc6d61e7e579</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div/div/div/ul/li[2]</value>
-      <webElementGuid>727839bc-b6a7-40f6-9311-e438578454bc</webElementGuid>
+      <value>//form[@id='userForm']/div[7]/div/button</value>
+      <webElementGuid>bb5c48d7-418c-4fb9-9fa6-14044045238c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Text Box'])[1]/following::li[1]</value>
-      <webElementGuid>7dedc0da-bbdd-4a3c-99db-9b36155db1e4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Department'])[2]/following::button[1]</value>
+      <webElementGuid>86e49157-a4a6-409c-aace-561d6c71f8aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elements'])[1]/following::li[2]</value>
-      <webElementGuid>4d64eeee-efb5-42cb-8e77-4237cf633f9f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Salary'])[2]/following::button[1]</value>
+      <webElementGuid>5beccc6d-f31e-41b3-901d-685fac535d93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Radio Button'])[1]/preceding::li[1]</value>
-      <webElementGuid>8d340eea-ff3d-44a5-bf28-6c46d020c39d</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Submit']/parent::*</value>
+      <webElementGuid>88a76ef8-2c33-4cf9-bb3e-54ecd6954652</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]</value>
-      <webElementGuid>ef41dfc9-bd86-4027-97b0-18532594ebb9</webElementGuid>
+      <value>//div[7]/div/button</value>
+      <webElementGuid>c391c437-9723-4792-b233-94d3e2d6cc0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[@id = 'item-1' and (text() = 'Check Box' or . = 'Check Box')]</value>
-      <webElementGuid>0cb225b6-b7f4-42cb-810f-7b207e6760d3</webElementGuid>
+      <value>//button[@id = 'submit' and @type = 'submit' and (text() = 'Submit' or . = 'Submit')]</value>
+      <webElementGuid>a31554c1-f55f-4458-b2b4-1866189b8487</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

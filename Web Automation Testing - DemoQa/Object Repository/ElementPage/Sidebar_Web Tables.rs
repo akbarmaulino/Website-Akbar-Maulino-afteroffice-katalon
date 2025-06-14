@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Sidebar_Check Box</name>
+   <name>Sidebar_Web Tables</name>
    <tag></tag>
-   <elementGuidId>f05525d8-cdf0-43dc-929c-3c0a3934e675</elementGuidId>
+   <elementGuidId>7beb56af-2fb1-4530-b613-a5f7c58d5bfa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'item-1' and (text() = 'Check Box' or . = 'Check Box')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#item-1</value>
+         <value>#item-3</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id = 'item-1' and (text() = 'Check Box' or . = 'Check Box')]</value>
+         <value>//li[@id='item-3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,94 +23,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>7e964d7c-80a2-40e0-92ad-65e2dc1fabc2</webElementGuid>
+      <webElementGuid>8f51338b-f69b-4f9e-8bfc-881c7349db03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-light active</value>
-      <webElementGuid>feb4d7c9-85bd-48d0-af90-61c994acee25</webElementGuid>
+      <value>btn btn-light </value>
+      <webElementGuid>6f59f9c0-c2b8-4813-9c51-39a36f62f70e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>item-1</value>
-      <webElementGuid>5a37718c-e7ca-4886-a891-ad6c82b017ca</webElementGuid>
+      <value>item-3</value>
+      <webElementGuid>8f628a78-9ac2-4c1d-adce-2ec897cd78ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Check Box</value>
-      <webElementGuid>95692f7e-aa35-4811-a5aa-cd2c72060d78</webElementGuid>
+      <value>Web Tables</value>
+      <webElementGuid>e05cc335-79de-4302-9e17-7b2cb86fcfe4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4  col-md-3&quot;]/div[@class=&quot;left-pannel&quot;]/div[@class=&quot;accordion&quot;]/div[@class=&quot;element-group&quot;]/div[@class=&quot;element-list collapse show&quot;]/ul[@class=&quot;menu-list&quot;]/li[@id=&quot;item-1&quot;]</value>
-      <webElementGuid>649d8df4-8606-4158-9f48-d82cf7a40b00</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4  col-md-3&quot;]/div[@class=&quot;left-pannel&quot;]/div[@class=&quot;accordion&quot;]/div[@class=&quot;element-group&quot;]/div[@class=&quot;element-list collapse show&quot;]/ul[@class=&quot;menu-list&quot;]/li[@id=&quot;item-3&quot;]</value>
+      <webElementGuid>490f4cbb-4147-4346-99a5-e0f0b07bc443</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='item-1']</value>
-      <webElementGuid>0b6cb294-de87-4822-a03c-83eab09fac54</webElementGuid>
+      <value>//li[@id='item-3']</value>
+      <webElementGuid>1750755a-91e5-48c4-a67e-0de59cde5d68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div/div/div/ul/li[2]</value>
-      <webElementGuid>727839bc-b6a7-40f6-9311-e438578454bc</webElementGuid>
+      <value>//div[@id='app']/div/div/div/div/div/div/div/div/ul/li[4]</value>
+      <webElementGuid>dcb0fe13-0bcf-42c2-9279-c380b46df129</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Text Box'])[1]/following::li[1]</value>
-      <webElementGuid>7dedc0da-bbdd-4a3c-99db-9b36155db1e4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Radio Button'])[1]/following::li[1]</value>
+      <webElementGuid>86bf6be1-fe01-4575-8b57-56804fbabaff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elements'])[1]/following::li[2]</value>
-      <webElementGuid>4d64eeee-efb5-42cb-8e77-4237cf633f9f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check Box'])[1]/following::li[2]</value>
+      <webElementGuid>c091c94c-3090-483c-8135-74276bbd2ac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Radio Button'])[1]/preceding::li[1]</value>
-      <webElementGuid>8d340eea-ff3d-44a5-bf28-6c46d020c39d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buttons'])[1]/preceding::li[1]</value>
+      <webElementGuid>97de75d9-5d17-4b49-bba4-6dca6423330d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]</value>
-      <webElementGuid>ef41dfc9-bd86-4027-97b0-18532594ebb9</webElementGuid>
+      <value>//li[4]</value>
+      <webElementGuid>d7b494c6-79bc-4448-968c-7cc49a88c8fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[@id = 'item-1' and (text() = 'Check Box' or . = 'Check Box')]</value>
-      <webElementGuid>0cb225b6-b7f4-42cb-810f-7b207e6760d3</webElementGuid>
+      <value>//li[@id = 'item-3' and (text() = 'Web Tables' or . = 'Web Tables')]</value>
+      <webElementGuid>101899f7-a6cc-496e-8066-3fd5583d33a8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
