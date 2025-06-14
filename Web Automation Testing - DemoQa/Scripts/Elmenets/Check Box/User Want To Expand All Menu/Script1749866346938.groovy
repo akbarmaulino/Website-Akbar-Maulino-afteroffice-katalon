@@ -25,21 +25,16 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/menu_Elements'))
 
-WebUI.click(findTestObject('ElementPage/Sidebar_Text Box'))
+WebUI.click(findTestObject('ElementPage/Sidebar_Check Box'))
 
-WebUI.setText(findTestObject('TextBox Menu/field_FullName'), GlobalVariable.FullName)
+WebUI.click(findTestObject('Check Box Menu/button_expand'))
 
-WebUI.setText(findTestObject('TextBox Menu/field_Email'), GlobalVariable.Email_Invalid)
+def items = ['Home', 'Desktop', 'Notes', 'Commands', 'Angular', 'Classified', 'Documents', 'Downloads', 'Excel File.doc'
+    , 'General', 'Office', 'Private', 'Public', 'React', 'Veu', 'Word File.doc', 'WorkSpace']
 
-WebUI.setText(findTestObject('TextBox Menu/field_CurrentAdress'), GlobalVariable.CurrentAddress)
-
-WebUI.setText(findTestObject('TextBox Menu/field_PermanentAddress'), GlobalVariable.PermanentAddress)
-
-WebUI.scrollToElement(findTestObject('TextBox Menu/button_submit'), 0)
-
-WebUI.click(findTestObject('TextBox Menu/button_submit'))
-
-WebUI.verifyElementPresent(findTestObject('TextBox Menu/verify_Email-Invalid'),0)
+for (def item : items) {
+    WebUI.verifyElementPresent(findTestObject("Check Box Menu/checkbox_$item"), 5)
+}
 
 WebUI.closeBrowser()
 
