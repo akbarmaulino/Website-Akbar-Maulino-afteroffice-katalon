@@ -30,7 +30,7 @@ WebUI.click(findTestObject('ElementPage/Sidebar_Radio Box'))
 
 WebUI.click(findTestObject('Radio Button Page/label_Impressive'))
 
-if (WebUI.verifyElementText(findTestObject('Object Repository/Radio Button Page/verify_Radio'), 'Yes')) {
+if (WebUI.verifyElementText(findTestObject('Object Repository/Radio Button Page/verify_Radio'), 'Impressive')) {
     Actual = WebUI.getText(findTestObject('Object Repository/Radio Button Page/verify_Radio'))
     KeywordUtil.markPassed('You have selected : ' + Actual)
 } else {
