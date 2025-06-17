@@ -25,9 +25,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/menu_Elements'))
 
-WebUI.click(findTestObject('ElementPage/Sidebar_Check Box'))
+WebUI.click(findTestObject('Sidebar List Menu/Element/Sidebar_Check Box'))
 
-WebUI.click(findTestObject('Check Box Menu/checkbox_Home'))
+WebUI.click(findTestObject('ElementPage/Check Box Menu/checkbox_Home'))
 
 def items = ['home', 'desktop', 'notes', 'commands', 'angular', 'classified', 'documents', 'downloads', 'excelFile', 'general',
  'office', 'private', 'public', 'react', 'veu', 'wordFile', 'workspace']

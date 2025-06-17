@@ -27,29 +27,29 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/menu_Elements'))
 
-WebUI.click(findTestObject('Object Repository/ElementPage/Sidebar_Web Tables'))
+WebUI.click(findTestObject('Object Repository/Sidebar List Menu/Element/Sidebar_Web Tables'))
 
-WebUI.click(findTestObject('Object Repository/Web Tables Page/button_Add'))
+WebUI.click(findTestObject('Object Repository/ElementPage/Web Tables Page/button_Add'))
 
-WebUI.setText(findTestObject('Object Repository/Web Tables Page/field_FirstName'), GlobalVariable.FirstName)
+WebUI.setText(findTestObject('Object Repository/ElementPage/Web Tables Page/field_FirstName'), GlobalVariable.FirstName)
 
-WebUI.setText(findTestObject('Object Repository/Web Tables Page/field_LastName'), GlobalVariable.LastName)
+WebUI.setText(findTestObject('Object Repository/ElementPage/Web Tables Page/field_LastName'), GlobalVariable.LastName)
 
-WebUI.setText(findTestObject('Object Repository/Web Tables Page/field_Email'), GlobalVariable.Email)
+WebUI.setText(findTestObject('Object Repository/ElementPage/Web Tables Page/field_Email'), GlobalVariable.Email)
 
-WebUI.setText(findTestObject('Object Repository/Web Tables Page/field_Age'), GlobalVariable.Age)
+WebUI.setText(findTestObject('Object Repository/ElementPage/Web Tables Page/field_Age'), GlobalVariable.Age)
 
-WebUI.setText(findTestObject('Object Repository/Web Tables Page/field_Salary'), GlobalVariable.Salary)
+WebUI.setText(findTestObject('Object Repository/ElementPage/Web Tables Page/field_Salary'), GlobalVariable.Salary)
 
-WebUI.setText(findTestObject('Object Repository/Web Tables Page/field_Department'), GlobalVariable.Departement)
+WebUI.setText(findTestObject('Object Repository/ElementPage/Web Tables Page/field_Department'), GlobalVariable.Departement)
 
-WebUI.click(findTestObject('Object Repository/Web Tables Page/button_Submit'))
+WebUI.click(findTestObject('Object Repository/ElementPage/Web Tables Page/button_Submit'))
 
 def dataMap = [('FirstName') : GlobalVariable.FirstName, ('LastName') : GlobalVariable.LastName, ('Email') : GlobalVariable.Email
     , ('Age') : GlobalVariable.Age, ('Salary') : GlobalVariable.Salary, ('Departement') : GlobalVariable.Departement]
 
 dataMap.each({ def key, def expectedValue ->
-        TestObject Value = findTestObject('Web Tables Page/verify_Data', [('Value') : expectedValue])
+        TestObject Value = findTestObject('ElementPage/Web Tables Page/verify_Data', [('Value') : expectedValue])
 
         String actualValue = WebUI.getText(Value)
 

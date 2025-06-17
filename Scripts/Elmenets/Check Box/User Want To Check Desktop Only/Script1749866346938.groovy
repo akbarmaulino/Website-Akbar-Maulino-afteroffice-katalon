@@ -25,13 +25,13 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/menu_Elements'))
 
-WebUI.click(findTestObject('ElementPage/Sidebar_Check Box'))
+WebUI.click(findTestObject('Sidebar List Menu/Element/Sidebar_Check Box'))
 
-WebUI.click(findTestObject('Check Box Menu/dropdown_Home'))
+WebUI.click(findTestObject('ElementPage/Check Box Menu/dropdown_Home'))
 
-WebUI.click(findTestObject('Check Box Menu/checkbox_Desktop'))
+WebUI.click(findTestObject('ElementPage/Check Box Menu/checkbox_Desktop'))
 
-WebUI.click(findTestObject('Check Box Menu/dropdown_Desktop'))
+WebUI.click(findTestObject('ElementPage/Check Box Menu/dropdown_Desktop'))
 
 def items = ['desktop', 'notes', 'commands']
 

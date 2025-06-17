@@ -26,12 +26,12 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/menu_Elements'))
 
-WebUI.click(findTestObject('ElementPage/Sidebar_Radio Box'))
+WebUI.click(findTestObject('Sidebar List Menu/Element/Sidebar_Radio Box'))
 
-WebUI.click(findTestObject('Radio Button Page/label_Impressive'))
+WebUI.click(findTestObject('ElementPage/Radio Button Page/label_Impressive'))
 
-if (WebUI.verifyElementText(findTestObject('Object Repository/Radio Button Page/verify_Radio'), 'Impressive')) {
-    Actual = WebUI.getText(findTestObject('Object Repository/Radio Button Page/verify_Radio'))
+if (WebUI.verifyElementText(findTestObject('Object Repository/ElementPage/Radio Button Page/verify_Radio'), 'Impressive')) {
+    Actual = WebUI.getText(findTestObject('Object Repository/ElementPage/Radio Button Page/verify_Radio'))
     KeywordUtil.markPassed('You have selected : ' + Actual)
 } else {
     KeywordUtil.markFailed('Click Salah, yang diklick : ' + Actual)

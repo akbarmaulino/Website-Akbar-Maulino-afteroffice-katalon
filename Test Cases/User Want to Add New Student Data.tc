@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Want to Add New Student Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ebbc24b-d0b7-45fa-9d95-9ea3f15cbeda</testCaseGuid>
+</TestCaseEntity>

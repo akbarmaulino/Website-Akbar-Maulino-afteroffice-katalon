@@ -25,11 +25,11 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/menu_Elements'))
 
-WebUI.click(findTestObject('ElementPage/Sidebar_Check Box'))
+WebUI.click(findTestObject('Sidebar List Menu/Element/Sidebar_Check Box'))
 
-WebUI.click(findTestObject('Check Box Menu/button_expand'))
+WebUI.click(findTestObject('ElementPage/Check Box Menu/button_expand'))
 
-WebUI.click(findTestObject('Check Box Menu/button_collapse'))
+WebUI.click(findTestObject('ElementPage/Check Box Menu/button_collapse'))
 
 def items = ['Home']
 

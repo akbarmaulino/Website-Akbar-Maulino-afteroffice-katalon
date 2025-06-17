@@ -26,11 +26,11 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/menu_Elements'))
 
-WebUI.click(findTestObject('ElementPage/Sidebar_Radio Box'))
+WebUI.click(findTestObject('Sidebar List Menu/Element/Sidebar_Radio Box'))
 
-WebUI.verifyElementNotClickable(findTestObject('Radio Button Page/label_No'))
+WebUI.verifyElementNotClickable(findTestObject('ElementPage/Radio Button Page/label_No'))
 
-if (WebUI.verifyElementNotClickable(findTestObject('Radio Button Page/label_No'))) {
+if (WebUI.verifyElementNotClickable(findTestObject('ElementPage/Radio Button Page/label_No'))) {
 		KeywordUtil.markPassed('Radio Button No benar berformat disable')
 		
 } else {

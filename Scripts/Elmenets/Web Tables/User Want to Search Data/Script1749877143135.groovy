@@ -27,14 +27,14 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/menu_Elements'))
 
-WebUI.click(findTestObject('Object Repository/ElementPage/Sidebar_Web Tables'))
+WebUI.click(findTestObject('Object Repository/Sidebar List Menu/Element/Sidebar_Web Tables'))
 
-WebUI.setText(findTestObject('Web Tables Page/field_Search'), GlobalVariable.NameDefault)
+WebUI.setText(findTestObject('ElementPage/Web Tables Page/field_Search'), GlobalVariable.NameDefault)
 
 def dataMap = [('FirstName') : GlobalVariable.NameDefault]
 
 dataMap.each({ def key, def expectedValue ->
-        TestObject Value = findTestObject('Web Tables Page/verify_Data', [('Value') : expectedValue])
+        TestObject Value = findTestObject('ElementPage/Web Tables Page/verify_Data', [('Value') : expectedValue])
 
         String actualValue = WebUI.getText(Value)
 

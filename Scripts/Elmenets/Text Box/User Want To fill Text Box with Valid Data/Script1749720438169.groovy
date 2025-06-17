@@ -25,27 +25,27 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/menu_Elements'))
 
-WebUI.click(findTestObject('ElementPage/Sidebar_Text Box'))
+WebUI.click(findTestObject('Sidebar List Menu/Element/Sidebar_Text Box'))
 
-WebUI.setText(findTestObject('TextBox Menu/field_FullName'), GlobalVariable.FullName)
+WebUI.setText(findTestObject('ElementPage/TextBox Menu/field_FullName'), GlobalVariable.FullName)
 
-WebUI.setText(findTestObject('TextBox Menu/field_Email'), GlobalVariable.Email)
+WebUI.setText(findTestObject('ElementPage/TextBox Menu/field_Email'), GlobalVariable.Email)
 
-WebUI.setText(findTestObject('TextBox Menu/field_CurrentAdress'), GlobalVariable.CurrentAddress)
+WebUI.setText(findTestObject('ElementPage/TextBox Menu/field_CurrentAdress'), GlobalVariable.CurrentAddress)
 
-WebUI.setText(findTestObject('TextBox Menu/field_PermanentAddress'), GlobalVariable.PermanentAddress)
+WebUI.setText(findTestObject('ElementPage/TextBox Menu/field_PermanentAddress'), GlobalVariable.PermanentAddress)
 
-WebUI.scrollToElement(findTestObject('TextBox Menu/button_submit'), 0)
+WebUI.scrollToElement(findTestObject('ElementPage/TextBox Menu/button_submit'), 0)
 
-WebUI.click(findTestObject('TextBox Menu/button_submit'))
+WebUI.click(findTestObject('ElementPage/TextBox Menu/button_submit'))
 
-WebUI.verifyElementText(findTestObject('TextBox Menu/verify_Name'), 'Name:' + GlobalVariable.FullName)
+WebUI.verifyElementText(findTestObject('ElementPage/TextBox Menu/verify_Name'), 'Name:' + GlobalVariable.FullName)
 
-WebUI.verifyElementText(findTestObject('TextBox Menu/verify_Email'), 'Email:' + GlobalVariable.Email)
+WebUI.verifyElementText(findTestObject('ElementPage/TextBox Menu/verify_Email'), 'Email:' + GlobalVariable.Email)
 
-WebUI.verifyElementText(findTestObject('TextBox Menu/verify_CurrentAddres'), 'Current Address :' + GlobalVariable.CurrentAddress)
+WebUI.verifyElementText(findTestObject('ElementPage/TextBox Menu/verify_CurrentAddres'), 'Current Address :' + GlobalVariable.CurrentAddress)
 
-WebUI.verifyElementText(findTestObject('TextBox Menu/verify_PermanentAddress'), 'Permananet Address :' + GlobalVariable.PermanentAddress)
+WebUI.verifyElementText(findTestObject('ElementPage/TextBox Menu/verify_PermanentAddress'), 'Permananet Address :' + GlobalVariable.PermanentAddress)
 
 WebUI.closeBrowser()
 
