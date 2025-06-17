@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_SuccessSubmitForm</name>
+   <tag></tag>
+   <elementGuidId>0ba23f4c-79bf-4951-adc8-69f8dcb239b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal-body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Thanks for submitting the form'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>37d58c16-dfe5-4c45-887a-1ea9ab1ea9d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-body</value>
+      <webElementGuid>5f805e52-f2c8-4f51-a0a7-748435bf1385</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LabelValuesStudent NameFirst LastStudent EmailFirstLast@google.comGenderMaleMobile1234567891Date of Birth01 March,2005SubjectsPhysicsHobbiesSports, Reading, MusicPictureScreenshot_1.pngAddressCurrent AddressState and CityNCR Delhi</value>
+      <webElementGuid>af095a2e-a975-450d-808f-8a7729527528</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]</value>
+      <webElementGuid>cfe73a52-46a4-4fae-8cd2-e285975a128d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thanks for submitting the form'])[1]/following::div[1]</value>
+      <webElementGuid>30d9316b-19e4-494c-9f07-31817bd86b61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'])[1]/following::div[8]</value>
+      <webElementGuid>c96ad4f6-3eaf-43dc-86ae-27c2dda956bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div[2]</value>
+      <webElementGuid>55d1dcbb-fa4e-4b7e-b23b-bae9fc0a48c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'LabelValuesStudent NameFirst LastStudent EmailFirstLast@google.comGenderMaleMobile1234567891Date of Birth01 March,2005SubjectsPhysicsHobbiesSports, Reading, MusicPictureScreenshot_1.pngAddressCurrent AddressState and CityNCR Delhi' or . = 'LabelValuesStudent NameFirst LastStudent EmailFirstLast@google.comGenderMaleMobile1234567891Date of Birth01 March,2005SubjectsPhysicsHobbiesSports, Reading, MusicPictureScreenshot_1.pngAddressCurrent AddressState and CityNCR Delhi')]</value>
+      <webElementGuid>96f50e82-614a-4d7f-8c24-c98ddc445a0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -25,21 +25,21 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Homepage/menu_Elements'))
 
-WebUI.click(findTestObject('ElementPage/Sidebar_Text Box'))
+WebUI.click(findTestObject('Sidebar List Menu/Element/Sidebar_Text Box'))
 
-WebUI.setText(findTestObject('TextBox Menu/field_FullName'), GlobalVariable.FullName)
+WebUI.setText(findTestObject('ElementPage/TextBox Menu/field_FullName'), GlobalVariable.FullName)
 
-WebUI.setText(findTestObject('TextBox Menu/field_Email'), GlobalVariable.Email_Invalid)
+WebUI.setText(findTestObject('ElementPage/TextBox Menu/field_Email'), GlobalVariable.Email_Invalid)
 
-WebUI.setText(findTestObject('TextBox Menu/field_CurrentAdress'), GlobalVariable.CurrentAddress)
+WebUI.setText(findTestObject('ElementPage/TextBox Menu/field_CurrentAdress'), GlobalVariable.CurrentAddress)
 
-WebUI.setText(findTestObject('TextBox Menu/field_PermanentAddress'), GlobalVariable.PermanentAddress)
+WebUI.setText(findTestObject('ElementPage/TextBox Menu/field_PermanentAddress'), GlobalVariable.PermanentAddress)
 
-WebUI.scrollToElement(findTestObject('TextBox Menu/button_submit'), 0)
+WebUI.scrollToElement(findTestObject('ElementPage/TextBox Menu/button_submit'), 0)
 
-WebUI.click(findTestObject('TextBox Menu/button_submit'))
+WebUI.click(findTestObject('ElementPage/TextBox Menu/button_submit'))
 
-WebUI.verifyElementPresent(findTestObject('TextBox Menu/verify_Email-Invalid'),0)
+WebUI.verifyElementPresent(findTestObject('ElementPage/TextBox Menu/verify_Email-Invalid'),0)
 
 WebUI.closeBrowser()
 
